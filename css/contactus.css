@@ -1,0 +1,219 @@
+html	{
+	border: 1px solid #cecece;
+	height: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Calibri;
+	background-color: #FDFDFD;
+}
+
+header	{
+	border: 1px solid black;
+	padding: 2px;
+	background-color: #000;
+}
+
+#toptext	{
+	text-align: left;
+	color: #f8f8f8;
+	display: initial;
+	margin: 0 auto 0 auto;
+}
+
+#searchbar	{
+	display: inline-block;
+	text-align: left;
+	margin: 0 auto 0 630px;
+}
+
+.sitemap	{
+	float: left;
+	padding: -30px;
+	margin: 0px -180px 0px 0px;
+}
+
+.sitemap a	{
+	color: #939393;
+	background-color: transparent;
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+}
+
+.copyright	{
+	display: inline-block;
+	text-align: center;
+}
+
+logo	{
+
+}
+
+#aboutus	{
+	float: right;
+	font-family: Calibri;
+	padding: 10px;
+}
+
+#aboutus p	{
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+	width: 200px;
+}
+
+body	{
+		
+}
+
+.main	{
+	width: 950px;
+	height: 1182px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navigation	{
+	font-family: Avant Garde;
+}
+
+ul	{
+	border-top: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+	background-color: #f3f3f3;
+	width: 950px;
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+	overflow: hidden;
+	font-size: 0;
+}
+
+ul li	{
+	display: inline;
+	padding: 0px 5px 8px 0px;
+}
+
+li a	{
+	color: #000;
+	padding: 0px 50px 8px 50px;
+	text-decoration: none;
+}
+
+a	{
+	background-color: #dddddd;
+	padding: 0px 0px 8px;
+	font-size: 1rem;
+}
+
+li a:hover	{
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	transition: all 200ms ease-out;
+	color: #000;
+	text-shadow: 1px 1px 1px #cecece;
+	background-color: #bda9cd;
+}
+
+.upmidd	{
+	padding: 5px 0px;
+	text-align: left;
+}
+
+#map	{
+	display: inline-block;
+	overflow: hidden;
+	height: 300px;
+	width: 550px;
+	float: left;
+	padding: 1px 4px 0px 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+#content	{
+	padding: 0px 5px 5px 5px;
+}
+
+#aboutust	{
+	border: 1px solid #cecece;
+	display: inline-block;
+	height: 300px;
+	width: 384px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: justify;
+	background-color: #f3ebff;
+}
+
+hr	{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.botmidd	{
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+#faq	{
+	border: 1px solid #cecece;
+	display: inline-block;
+	width: 547px;
+	height: 584px;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 5px;
+	background-color: #f3ebff;
+}
+
+#review	{
+	border: 1px solid #cecece;
+	display: inline-block;
+	width: 384px;
+	height: 220px;
+	vertical-align: top;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 5px 0px 0px;
+	background-color: #f3ebff;
+}
+
+.textboxone	{
+	width: 367px;
+	height: 85px;
+	max-height: 85px;
+	max-width: 367px;
+}
+
+#inquiry	{
+	border: 1px solid #cecece;
+	display: inline-block;
+	width: 384px;
+	height: 357px;
+	vertical-align: top;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	margin: 5px 5px 0px 0px;
+	background-color: #f3ebff;
+}
+
+.textboxtwo	{
+	width: 367px;
+	height: 201px;
+	max-height: 201px;
+	max-width: 367px;
+}
+
+footer	{
+	border: 1px solid black;
+	background-color: #000;
+	color: #f8f8f8;
+	padding: 2px;
+	width: 944px;
+	position: absolute;
+	margin-top: 1130px;
+}

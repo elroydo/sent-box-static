@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/index.css">
+
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="icon" href="images/titlelogo.png">
+	</head>
+	<div class="main">
+		<header>
+			<div class="topbar">
+				<div id="toptext">
+					Home
+				</div>
+				<div id="searchbar">	
+					<form>
+						<input type="text" placeholder="Search" name="search"/>
+						<button type="button" onclick="document.getElementById('search').innerHTML = searchbox()">
+							Search
+						</button>
+					</form>
+				</div>
+			</div>
+		</header>
+		<footer>
+			<div class="bottombar">
+				<div class="sitemap">
+					<a href="index.html">Home</a>
+					<a href="his.html">His</a>
+					<a href="her.html">Her</a>
+					<a href="gift.html">Gift</a>
+					<a href="contactus.html">Contact</a>
+				</div>
+				<div class="copyright">
+					Copyright &copy; 2017 Sent-Box
+				</div>
+			</div>
+		</footer>
+		<body>
+			<logo>
+				<div id="logonslogan">
+					<img width="550px" height="200" src="images/Logo_slogan.png" alt="Logo & slogan" align="left">
+				</div>
+			</logo>
+			<div id="aboutus">
+				<p>	Sent-Box <br>
+					227 Broadway <br>
+					Ealing, London, England<br>
+					020 48574 851
+				</p>
+			</div>
+			<nav>
+				<div id="navigation">
+					<ul>
+						<li><a class="active" href="index.html">Home</a></li>
+						<li><a class="active" href="his.html">His</a></li>
+						<li><a class="active" href="her.html">Her</a></li>
+						<li><a class="active" href="gift.html">Gift</a></li>
+						<li><a class="active" href="contactus.html">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="slideshow">
+				<img class="slide" src="images/1.png">
+				<img class="slide" src="images/2.png">
+				<img class="slide" src="images/3.png">
+				<button class="leftbutton" onclick="butDis(-1)">&#10096;</button>
+				<button class="rightbutton" onclick="butDis(1)">&#10097;</button>
+				<script src="js/slideshow.js"></script>
+			</div>
+			<div class="midd">
+				<div class="leftimg">
+					<img src="images/4.png">
+				</div>
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/WaIR7tE3B0I?ecver=1" 
+					frameborder="0" allowfullscreen>
+					</iframe>
+				</div>
+				<div class="rightimg">
+					<img src="images/5.png">
+				</div>
+			</div>
+			<div class="bott">
+				<div id="about">
+					<b>About us</b>
+					<p>We, Sent-Box, are a retailer that specialize in selling various fragrances from 
+					prominent brands such as Hugo Boss, Calvin Klein, Lacoste and many more. We target
+					our products towards both sexes from ages of 16-30 year olds.
+					
+					
+					</p>
+				</div>
+				<div id="social">
+					<a class="twitter-timeline" href="https://twitter.com/ThePerfumeShop" 
+						data-width="600"
+						data-height="268">
+					</a> 
+						<script async src="js/twitter.js" charset="utf-8"></script>
+				</div>
+			</div>
+		</body>
+	</div>
+</html>

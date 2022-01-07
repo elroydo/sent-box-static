@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/contactus.css">
+
+<html>
+	<head>
+		<title>Contact</title>
+		<link rel="icon" href="images/titlelogo.png">
+	</head>
+	<div class="main">
+		<header>
+			<div class="topbar">
+				<div id="toptext">
+					Contact
+				</div>
+				<div id="searchbar">	
+					<form>
+						<input type="text" placeholder="Search" name="search"/>
+						<button type="button" onclick="document.getElementById('search').innerHTML = searchbox()">
+							Search
+						</button>
+					</form>
+				</div>
+			</div>
+		</header>
+		<footer>
+			<div class="bottombar">
+				<div class="sitemap">
+					<a href="index.html">Home</a>
+					<a href="his.html">His</a>
+					<a href="her.html">Her</a>
+					<a href="gift.html">Gift</a>
+					<a href="contactus.html">Contact</a>
+				</div>
+				<div class="copyright">
+					Copyright &copy; 2017 Sent-Box
+				</div>
+			</div>
+		</footer>
+		<body>
+			<logo>
+				<div id="logonslogan">
+					<img width="550px" height="200" src="images/Logo_slogan.png" alt="Logo & slogan" align="left">
+				</div>
+			</logo>
+			<div id="aboutus">
+				<p>	Sent-Box <br>
+					227 Broadway <br>
+					Ealing, London, England<br>
+					020 48574 851
+				</p>
+			</div>
+			<nav>
+				<div id="navigation">
+					<ul>
+						<li><a class="active" href="index.html">Home</a></li>
+						<li><a class="active" href="his.html">His</a></li>
+						<li><a class="active" href="her.html">Her</a></li>
+						<li><a class="active" href="gift.html">Gift</a></li>
+						<li><a class="active" href="contactus.html">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="upmidd">
+				<div id="map">
+					<div id='gmap_canvas' style='height:301px;width:549px;'>
+						<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+						<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+						<script type='text/javascript' src="js/map.js"></script>
+					</div>
+				</div>
+				<div id="aboutust">
+					<b>About Us</b>
+					<br><hr>
+					<div id="content">
+						We, Sent-Box, are a retailer that specialize in selling various fragrances from 
+						prominent brands such as Hugo Boss, Calvin Klein, Lacoste and many more. We target
+						our products towards both sexes from ages of 16-30 year olds. 
+						<br>
+						Becuase we are a smallbusiness, we've decided to have an online presence in order to
+						gain attraction and appeal to a wider audience from anywhere around the world.
+						The purpose of this website is for it to be a marketing medium to promote our
+						products and advertise present offers available to our customers.
+						<br>
+						Be sure to pay us a visit in-store for special offers and discounts!
+					</div>
+				</div>
+			</div>
+			<div class="botmidd">
+				<div id="faq">
+					<b>Frequently asked questions</b>
+					<br><hr>
+					<div id="content">
+						<b>1. What is the purpose of this FAQ section?</b>
+						<br>
+						To address frequently asked questions about the various aspects of Sent-Box and its aspects.
+						<br><br>
+						<b>2. Are the products listed on this website real or genuine?</b>
+						<br>
+						Yes. The offered products are supplied by offical brands such as GUCCI, HUGO BOSS, Lacoste and many more, all of which can be purchased in-store.
+						<br><br>
+						<b>3. Are product gift wrapping services offered?</b>
+						<br>
+						We do offer gift wrapping services on all of our gift products, with an additional fee of £5.
+						<br><br>
+						<b>4. What if I have purchased a faulty or damaged item?</b>
+						<br>
+						We'll be happy to replace the fault or damaged product, provide an alternative or provide a full refund. 
+						<br><br>
+						<b>5. Are the prices of products the same in-store as they are online?</b>
+						<br>
+						Yes. All products shown on our website, retain their prices in-store.
+						<br><br>
+						<b>6. What do I do if i cannot find the item I am looking for online - does that mean you don't sell it?</b>
+						<br>
+						Not always the case. The products listed on the website may be out of stock, or the products are exclusively available in-store. If you would like to inquire about a specific product please send us an email via the Inquiries/Complaints section on the Contact page.
+						<br><br>
+						<b>7. How do I find the store?</b>
+						<br>
+						Please refer to our map section.
+					</div>
+				</div>
+				<div id="review">
+					<b>Reviews</b>
+					<br><hr>
+					<div id="content">
+					Send us a review of your experience with us!
+						<form class="reviewform"
+							name="reviewform"
+							action=""
+							onsubmit="return validatereview()"
+							method="post">
+							<span style="color: #ff0000">*</span>Name: <br>
+							<input type = "text" name="rname" maxlength="25" value="First and last name" onfocus="this.value==this.defaultValue?this.value='':null">
+							<br>
+							<span style="color: #ff0000">*</span>Review (250 characters max): <br>
+							<textarea class="textboxone" name="rcomments" maxlength="250"></textarea>
+							<br>
+							<input type="submit" value="Submit">
+						</form>
+						<script type='text/javascript' src="js/review.js"></script>
+					</div>
+				</div>
+				<div id="inquiry">
+					<b>Inquiries/Complaints</b>
+					<br><hr>
+					<div id="content">
+						<form class="myfeedback"
+							name="myfeedbackform"
+							action=""
+							onsubmit="return validateform()"
+							method="post">
+							<span style="color: #ff0000">*</span>Name: <br>
+							<input type = "text" name="fname" maxlength="25" value="First and last name" onfocus="this.value==this.defaultValue?this.value='':null">
+							<br>
+							<span style="color: #ff0000">*</span>Email: <br>
+							<input type = "text" name= "iemail" maxlength="25" value="example@email.com" onfocus="this.value==this.defaultValue?this.value='':null">
+							<br>
+							<span style="color: #ff0000">*</span>Input (650 characters max): <br>
+							<textarea class="textboxtwo" name="comments" maxlength="650"></textarea>
+							<br>
+							<input type="submit" value="Submit">
+						</form>
+					</div>
+					<script type='text/javascript' src="js/inqcom.js"></script>
+				</div>
+			</div>
+		</body>
+	</div>
+</html>
